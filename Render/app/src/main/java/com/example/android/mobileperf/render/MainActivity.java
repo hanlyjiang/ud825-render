@@ -33,6 +33,9 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+//        getWindow().setBackgroundDrawable(null);
+
         ViewGroup activityContainer = (ViewGroup) findViewById(R.id.activity_main_container);
 
         addButton(ChatumLatinumActivity.class,
